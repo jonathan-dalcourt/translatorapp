@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/nouns"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/nouns_notes"
+            style="@style/CategoryStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableEnd="@drawable/ic_star_filled"
+            android:drawableRight="@drawable/ic_star_filled"
+            android:paddingEnd="32dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="32dp"
+            android:paddingStart="16dp"
+            android:text="@string/category_nouns_notes" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="@dimen/divider_margin"
+            android:layout_marginRight="@dimen/divider_margin"
+            android:background="@android:color/darker_gray" />
+
+        <TextView
+            android:id="@+id/animals_activity"
+            style="@style/CategoryStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableEnd="@drawable/ic_navigate"
+            android:drawableRight="@drawable/ic_navigate"
+            android:paddingEnd="32dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="32dp"
+            android:paddingStart="16dp"
+            android:text="@string/category_animals" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="@dimen/divider_margin"
+            android:layout_marginRight="@dimen/divider_margin"
+            android:background="@android:color/darker_gray" />
+
+        <TextView
+            android:id="@+id/calendar_activity"
+            style="@style/CategoryStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableEnd="@drawable/ic_navigate"
+            android:drawableRight="@drawable/ic_navigate"
+            android:paddingEnd="32dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="32dp"
+            android:paddingStart="16dp"
+            android:text="@string/category_calendar" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="@dimen/divider_margin"
+            android:layout_marginRight="@dimen/divider_margin"
+            android:background="@android:color/darker_gray" />
+
+        <TextView
+            android:id="@+id/clothing_activity"
+            style="@style/CategoryStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableEnd="@drawable/ic_navigate"
+            android:drawableRight="@drawable/ic_navigate"
+            android:paddingEnd="32dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="32dp"
+            android:paddingStart="16dp"
+            android:text="@string/category_clothing" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="@dimen/divider_margin"
+            android:layout_marginRight="@dimen/divider_margin"
+            android:background="@android:color/darker_gray" />
+
+        <TextView
+            android:id="@+id/countries_activity"
+            style="@style/CategoryStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableEnd="@drawable/ic_navigate"
+            android:drawableRight="@drawable/ic_navigate"
+            android:paddingEnd="32dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="32dp"
+            android:paddingStart="16dp"
+            android:text="@string/category_countries_languages" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="@dimen/divider_margin"
+            android:layout_marginRight="@dimen/divider_margin"
+            android:background="@android:color/darker_gray" />
+
+        <TextView
+            android:id="@+id/directions_activity"
+            style="@style/CategoryStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableEnd="@drawable/ic_navigate"
+            android:drawableRight="@drawable/ic_navigate"
+            android:paddingEnd="32dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="32dp"
+            android:paddingStart="16dp"
+            android:text="@string/category_directions" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="@dimen/divider_margin"
+            android:layout_marginRight="@dimen/divider_margin"
+            android:background="@android:color/darker_gray" />
+
+
+        <TextView
+            android:id="@+id/food_activity"
+            style="@style/CategoryStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableEnd="@drawable/ic_navigate"
+            android:drawableRight="@drawable/ic_navigate"
+            android:paddingEnd="32dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="32dp"
+            android:paddingStart="16dp"
+            android:text="@string/category_food" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="@dimen/divider_margin"
+            android:layout_marginRight="@dimen/divider_margin"
+            android:background="@android:color/darker_gray" />
+
+        <TextView
+            android:id="@+id/house_activity"
+            style="@style/CategoryStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableEnd="@drawable/ic_navigate"
+            android:drawableRight="@drawable/ic_navigate"
+            android:paddingEnd="32dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="32dp"
+            android:paddingStart="16dp"
+            android:text="@string/category_household" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="@dimen/divider_margin"
+            android:layout_marginRight="@dimen/divider_margin"
+            android:background="@android:color/darker_gray" />
+
+        <TextView
+            android:id="@+id/land_activity"
+            style="@style/CategoryStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableEnd="@drawable/ic_navigate"
+            android:drawableRight="@drawable/ic_navigate"
+            android:paddingEnd="32dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="32dp"
+            android:paddingStart="16dp"
+            android:text="@string/category_land" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="@dimen/divider_margin"
+            android:layout_marginRight="@dimen/divider_margin"
+            android:background="@android:color/darker_gray" />
+
+        <TextView
+            android:id="@+id/numbers_activity"
+            style="@style/CategoryStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableEnd="@drawable/ic_navigate"
+            android:drawableRight="@drawable/ic_navigate"
+            android:paddingEnd="32dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="32dp"
+            android:paddingStart="16dp"
+            android:text="@string/category_numbers" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="@dimen/divider_margin"
+            android:layout_marginRight="@dimen/divider_margin"
+            android:background="@android:color/darker_gray" />
+
+        <TextView
+            android:id="@+id/party_activity"
+            style="@style/CategoryStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableEnd="@drawable/ic_navigate"
+            android:drawableRight="@drawable/ic_navigate"
+            android:paddingEnd="32dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="32dp"
+            android:paddingStart="16dp"
+            android:text="@string/category_parties" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="@dimen/divider_margin"
+            android:layout_marginRight="@dimen/divider_margin"
+            android:background="@android:color/darker_gray" />
+
+        <TextView
+            android:id="@+id/family_activity"
+            style="@style/CategoryStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableEnd="@drawable/ic_navigate"
+            android:drawableRight="@drawable/ic_navigate"
+            android:paddingEnd="32dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="32dp"
+            android:paddingStart="16dp"
+            android:text="@string/category_people" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="@dimen/divider_margin"
+            android:layout_marginRight="@dimen/divider_margin"
+            android:background="@android:color/darker_gray" />
+
+
+        <TextView
+            android:id="@+id/places_activity"
+            style="@style/CategoryStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableEnd="@drawable/ic_navigate"
+            android:drawableRight="@drawable/ic_navigate"
+            android:paddingEnd="32dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="32dp"
+            android:paddingStart="16dp"
+            android:text="@string/category_places" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="@dimen/divider_margin"
+            android:layout_marginRight="@dimen/divider_margin"
+            android:background="@android:color/darker_gray" />
+
+        <TextView
+            android:id="@+id/school_activity"
+            style="@style/CategoryStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableEnd="@drawable/ic_navigate"
+            android:drawableRight="@drawable/ic_navigate"
+            android:paddingEnd="32dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="32dp"
+            android:paddingStart="16dp"
+            android:text="@string/category_school" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="@dimen/divider_margin"
+            android:layout_marginRight="@dimen/divider_margin"
+            android:background="@android:color/darker_gray" />
+
+        <TextView
+            android:id="@+id/sports_activity"
+            style="@style/CategoryStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableEnd="@drawable/ic_navigate"
+            android:drawableRight="@drawable/ic_navigate"
+            android:paddingEnd="32dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="32dp"
+            android:paddingStart="16dp"
+            android:text="@string/category_sports" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="@dimen/divider_margin"
+            android:layout_marginRight="@dimen/divider_margin"
+            android:background="@android:color/darker_gray" />
+
+        <TextView
+            android:id="@+id/trans_activity"
+            style="@style/CategoryStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableEnd="@drawable/ic_navigate"
+            android:drawableRight="@drawable/ic_navigate"
+            android:paddingEnd="32dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="32dp"
+            android:paddingStart="16dp"
+            android:text="@string/category_trans" />
+
+    </LinearLayout>
+</ScrollView>

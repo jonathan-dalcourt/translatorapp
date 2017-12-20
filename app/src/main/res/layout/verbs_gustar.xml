@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/verbs_gustar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/NotesStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/gustar_notes" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="@dimen/divider_margin"
+            android:layout_marginRight="@dimen/divider_margin"
+            android:background="@android:color/darker_gray" />
+
+        <TextView
+            style="@style/ExamplesStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ex" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="@dimen/divider_margin"
+            android:layout_marginRight="@dimen/divider_margin"
+            android:background="@android:color/darker_gray" />
+
+        <TextView
+            android:id="@+id/animals_activity"
+            style="@style/NotesStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/gustar_ex_yo_singular" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="@dimen/divider_margin"
+            android:layout_marginRight="@dimen/divider_margin"
+            android:background="@android:color/darker_gray" />
+
+
+        <TextView
+            style="@style/NotesStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/gustar_ex_el_ella_usted_singular" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="@dimen/divider_margin"
+            android:layout_marginRight="@dimen/divider_margin"
+            android:background="@android:color/darker_gray" />
+
+
+        <TextView
+            style="@style/NotesStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/gustar_ex_nos_plural" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="@dimen/divider_margin"
+            android:layout_marginRight="@dimen/divider_margin"
+            android:background="@android:color/darker_gray" />
+
+
+        <TextView
+            style="@style/NotesStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/gustar_ex_ellos_ellas_ustedes" />
+    </LinearLayout>
+</ScrollView>

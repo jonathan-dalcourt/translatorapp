@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/nouns"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/adj_notes"
+        style="@style/CategoryStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableEnd="@drawable/ic_star_filled"
+        android:drawableRight="@drawable/ic_star_filled"
+        android:paddingEnd="32dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="32dp"
+        android:paddingStart="16dp"
+        android:text="@string/category_adj_notes" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="@dimen/divider_margin"
+        android:layout_marginRight="@dimen/divider_margin"
+        android:background="@android:color/darker_gray" />
+
+    <TextView
+        android:id="@+id/colors_activity"
+        style="@style/CategoryStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableEnd="@drawable/ic_navigate"
+        android:drawableRight="@drawable/ic_navigate"
+        android:paddingEnd="32dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="32dp"
+        android:paddingStart="16dp"
+        android:text="@string/category_colors" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="@dimen/divider_margin"
+        android:layout_marginRight="@dimen/divider_margin"
+        android:background="@android:color/darker_gray" />
+
+    <TextView
+        android:id="@+id/physical_activity"
+        style="@style/CategoryStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableEnd="@drawable/ic_navigate"
+        android:drawableRight="@drawable/ic_navigate"
+        android:paddingEnd="32dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="32dp"
+        android:paddingStart="16dp"
+        android:text="@string/category_physical" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="@dimen/divider_margin"
+        android:layout_marginRight="@dimen/divider_margin"
+        android:background="@android:color/darker_gray" />
+
+    <TextView
+        android:id="@+id/personality_activity"
+        style="@style/CategoryStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableEnd="@drawable/ic_navigate"
+        android:drawableRight="@drawable/ic_navigate"
+        android:paddingEnd="32dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="32dp"
+        android:paddingStart="16dp"
+        android:text="@string/category_personality" />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="@dimen/divider_margin"
+        android:layout_marginRight="@dimen/divider_margin"
+        android:background="@android:color/darker_gray" />
+
+    <TextView
+        android:id="@+id/adj_other_activity"
+        style="@style/CategoryStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableEnd="@drawable/ic_navigate"
+        android:drawableRight="@drawable/ic_navigate"
+        android:paddingEnd="32dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="32dp"
+        android:paddingStart="16dp"
+        android:text="@string/category__adj_other" />
+</LinearLayout>

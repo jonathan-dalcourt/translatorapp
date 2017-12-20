@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/nouns"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/food_activity"
+        style="@style/CategoryStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableEnd="@drawable/ic_navigate"
+        android:drawableRight="@drawable/ic_navigate"
+        android:paddingEnd="32dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="32dp"
+        android:paddingStart="16dp"
+        android:text="@string/category_food_food" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="@dimen/divider_margin"
+        android:layout_marginRight="@dimen/divider_margin"
+        android:background="@android:color/darker_gray" />
+
+    <TextView
+        android:id="@+id/drink_activity"
+        style="@style/CategoryStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableEnd="@drawable/ic_navigate"
+        android:drawableRight="@drawable/ic_navigate"
+        android:paddingEnd="32dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="32dp"
+        android:paddingStart="16dp"
+        android:text="@string/category_drink" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="@dimen/divider_margin"
+        android:layout_marginRight="@dimen/divider_margin"
+        android:background="@android:color/darker_gray" />
+
+</LinearLayout>

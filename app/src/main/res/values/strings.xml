@@ -1,0 +1,812 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Translator</string>
+    <string name="search_title">Search</string>
+    <string name="search_hint">Search...</string>
+    <!-- Main Activity Categories -->
+    <string name="category_nouns">Nouns</string>
+    <string name="category_pronouns">Pronouns</string>
+    <string name="category_verbs">Verbs</string>
+    <string name="category_adjectives">Adjectives</string>
+    <string name="category_prepositions">Prepositions</string>
+    <string name="category_phrases">Phrases</string>
+    <!-- Adjective Categories -->
+    <string name="category_adj_notes">Notes on Spanish Adjectives</string>
+    <string name="category_physical">Physical Attributes</string>
+    <string name="category_personality">Personality Attributes</string>
+    <string name="category__adj_other">Other Adjectives</string>
+    <!-- Preposition Categories -->
+    <string name="category_chrono">Chronological</string>
+    <string name="category_spatial">Spatial</string>
+    <!-- Noun Categories -->
+    <string name="category_nouns_notes">Notes on Spanish Nouns</string>
+    <string name="category_animals">Animals</string>
+    <string name="category_calendar">Calendar Nouns</string>
+    <string name="category_numbers">Numbers</string>
+    <string name="category_household">House Terms</string>
+    <string name="category_sports">Sports</string>
+    <string name="category_countries_languages">Countries and Languages</string>
+    <string name="category_people">People</string>
+    <string name="category_colors">Colors</string>
+    <string name="category_school">School</string>
+    <string name="category_other">Other Nouns</string>
+    <string name="category_places">Places</string>
+    <string name="category_food">Food and Drink</string>
+    <string name="category_jobs">Jobs</string>
+    <string name="category_trans">Transportation</string>
+    <string name="category_directions">Directions</string>
+    <string name="category_clothing">Clothing</string>
+    <string name="category_land">Land Features</string>
+    <string name="category_parties">Parties</string>
+    <!-- Pronoun Categories -->
+    <string name="category_personal">Personal</string>
+    <string name="category_possessive">Possessive</string>
+    <string name="category_reflexive">Reflexive</string>
+    <string name="category_relative">Relative</string>
+    <string name="category_demonstrative">Demonstrative</string>
+    <string name="category_interrogative">Interrogative</string>
+    <string name="category_indefinite">Indefinite</string>
+    <string name="category_object">Object</string>
+    <string name="category_poss_dep">Possessive Dependent</string>
+    <string name="category_poss_ind">Possessive Independent</string>
+    <string name="category_subject">Subject</string>
+    <string name="category_pronoun_notes">Notes on Spanish Pronouns</string>
+    <!-- Phrases Categories -->
+    <string name="category_time">Time</string>
+    <string name="category_location">Location</string>
+    <string name="category_about">About Someone</string>
+    <string name="category_descriptive">I...</string>
+    <!-- Examples -->
+    <string name="ex">Examples</string>
+    <!-- Adjectives -->
+    <!-- Adjectives Notes -->
+    <string name="adj_notes">\tAdjectives change depending on the noun they are describing.
+    Masculine singular, feminine singular, masculine plural, and feminine plural adjectives end in
+    o/a/os/as, respectively. Gender neutral adjectives (those ending in e, en, il, etc) remain the
+    same for both singular forms and gain an \"s\" or \"es\" at the end for their plural forms.</string>
+    <string name="adj_ex_m_s">My dog is old.
+        \nMi perro es viejo.</string>
+    <string name="adj_ex_f_s">My mother is kind.
+        \nMi madre is simpática.</string>
+    <string name="adj_ex_m_p">My brothers are funny.
+        \nMis hermanos son cómicos.</string>
+    <string name="adj_ex_f_p">My clothes are new.
+        \nMis ropas son nuevas.</string>
+    <string name="adj_ex_n_s">My father is strong.
+         \nMi padre es fuerte.</string>
+    <string name="adj_ex_n_p">The girls are sad.
+         \nLos niñas son tristes.</string>
+    <!-- Colors -->
+    <string name="color_red">Red</string>
+    <string name="color_orange">Orange</string>
+    <string name="color_yellow">Yellow</string>
+    <string name="color_green">Green</string>
+    <string name="color_blue">Blue</string>
+    <string name="color_purple">Purple</string>
+    <string name="color_black">Black</string>
+    <string name="color_white">White</string>
+    <string name="color_grey">Grey</string>
+    <string name="color_brown">Brown</string>
+    <!-- Physical Attributes -->
+    <string name="physical_bald">Bald</string>
+    <string name="physical_beautiful">Beautiful</string>
+    <string name="physical_big">Big</string>
+    <string name="physical_blonde">Blonde</string>
+    <string name="physical_brunnette">Brunnette</string>
+    <string name="physical_dry">Dry</string>
+    <string name="physical_fat">Fat</string>
+    <string name="physical_handsome">Handsome</string>
+    <string name="physical_long">Long</string>
+    <string name="physical_new">New</string>
+    <string name="physical_old">Old</string>
+    <string name="physical_pretty">Pretty</string>
+    <string name="physical_redhead">Redhead</string>
+    <string name="physical_short">Short</string>
+    <string name="physical_silver_hair">Silver-Haired</string>
+    <string name="physical_skinny">Skinny</string>
+    <string name="physical_small">Small</string>
+    <string name="physical_strong">Strong</string>
+    <string name="physical_tall">Tall</string>
+    <string name="physical_ugly">Ugly</string>
+    <string name="physical_weak">Weak</string>
+    <string name="physical_wet">Wet</string>
+    <string name="physical_young">Young</string>
+    <!-- Personal Attributes -->
+    <string name="personal_anxious">Anxious</string>
+    <string name="personal_disorganized">Disorganized</string>
+    <string name="personal_excited">Excited</string>
+    <string name="personal_foolish">Foolish</string>
+    <string name="personal_funny">Funny</string>
+    <string name="personal_happy">Happy</string>
+    <string name="personal_hard_working">Hard Working</string>
+    <string name="personal_intelligent">Intelligent</string>
+    <string name="personal_kind">Kind</string>
+    <string name="personal_lazy">Lazy</string>
+    <string name="personal_mean">Mean</string>
+    <string name="personal_poor">Poor</string>
+    <string name="personal_sad">Sad</string>
+    <string name="personal_scary">Scary</string>
+    <string name="personal_serious">Serious</string>
+    <string name="personal_wealthy">Wealthy</string>
+    <!-- Other -->
+    <string name="other_bad">Bad</string>
+    <string name="other_early">Early</string>
+    <string name="other_fast">Fast</string>
+    <string name="other_good">Good</string>
+    <string name="other_gross">Gross</string>
+    <string name="other_important">Important</string>
+    <string name="other_last">Last</string>
+    <string name="other_late">Late</string>
+    <string name="other_next">Next</string>
+    <string name="other_slow">Slow</string>
+    <string name="other_tasty">Tasty</string>
+    <!-- Nouns -->
+    <!-- Nouns Notes -->
+    <string name="nouns_notes">\tEvery noun in Spanish has a gender, male or female. Masculine and
+        feminine nouns usually end in \"o\" or \"a\" and are preceded by \"el/un\" and \"la/una\" respectively.
+        However, there are a few exceptions such as \"El álgebra\" (algebra). Plural nouns end in
+        \"os\", \"as\", or \"es.\"</string>
+    <string name="nouns_ex_m_s">Where is the gym?
+        \n¿Donde está el gimnasio?</string>
+    <string name="nouns_ex_f_s">The apple is red.
+        \nLa manzana es rojo.</string>
+    <string name="nouns_ex_m_p">The men are European.
+        \nLos hombres son Europeos.</string>
+    <string name="nouns_ex_f_p">The beers are gross.
+        \nLas cervezas son asquerosas.</string>
+    <!-- Animals -->
+    <string name="animals_bird">Bird</string>
+    <string name="animals_cat">Cat</string>
+    <string name="animals_dog">Dog</string>
+    <string name="animals_fish">Fish</string>
+    <string name="animals_pet">Pet</string>
+    <!-- Countries and Languages Categories -->
+    <string name="category_countries">Countries</string>
+    <string name="category_languages">Languages</string>
+    <!-- Calendar Nouns -->
+    <!-- Calendar Nouns Categories -->
+    <string name="category_days">Days of the Week</string>
+    <string name="category_months">Months</string>
+    <string name="category_years">Years</string>
+    <string name="category_seasons">Seasons</string>
+    <string name="category_holidays">Holidays</string>
+    <!-- Days -->
+    <string name="days_monday">Monday</string>
+    <string name="days_tuesday">Tuesday</string>
+    <string name="days_wednesday">Wednesday</string>
+    <string name="days_thursday">Thursday</string>
+    <string name="days_friday">Friday</string>
+    <string name="days_saturday">Saturday</string>
+    <string name="days_sunday">Sunday</string>
+    <string name="days_day">Day</string>
+    <string name="days_yesterday">Yesterday</string>
+    <string name="days_today">Today</string>
+    <string name="days_tomorrow">Tomorrow</string>
+    <string name="days_week">Week</string>
+    <string name="days_weekday">Weekday</string>
+    <string name="days_weekend">Weekend</string>
+    <string name="days_last_week">Last week</string>
+    <string name="days_this_week">This week</string>
+    <string name="days_next_week">Next week</string>
+    <!-- Months -->
+    <string name="months_january">January</string>
+    <string name="months_february">February</string>
+    <string name="months_march">March</string>
+    <string name="months_april">April</string>
+    <string name="months_may">May</string>
+    <string name="months_june">June</string>
+    <string name="months_july">July</string>
+    <string name="months_august">August</string>
+    <string name="months_september">September</string>
+    <string name="months_october">October</string>
+    <string name="months_november">November</string>
+    <string name="months_december">December</string>
+    <string name="months_month">Month</string>
+    <string name="months_last_month">Last month</string>
+    <string name="months_this_month">This month</string>
+    <string name="months_next_month">Next month</string>
+    <string name="months__months_ago">A few months ago</string>
+    <!-- Seasons -->
+    <string name="seasons_spring">Spring</string>
+    <string name="seasons_summer">Summer</string>
+    <string name="seasons_fall">Fall</string>
+    <string name="seasons_winter">Winter</string>
+    <!-- Holidays -->
+    <string name="holidays_new_years">New Year\'s</string>
+    <string name="holidays_valentines">Valentine\'s Day</string>
+    <string name="holidays_april_fools">April Fool\'s Day</string>
+    <string name="holidays_passover">Passover</string>
+    <string name="holidays_ash_wednesday">Ash Wednesday</string>
+    <string name="holidays_lent">Lent</string>
+    <string name="holidays_good_friday">Good Friday</string>
+    <string name="holidays_easter">Easter</string>
+    <string name="holidays_mothers_day">Mother\'s Day</string>
+    <string name="holidays_memorial_day">Memorial Day</string>
+    <string name="holidays_fathers_day">Father\'s Day</string>
+    <string name="holidays_independence_day">Mexican Independence Day</string>
+    <string name="holidays_labor_day">Labor Day</string>
+    <string name="holidays_rosh_hashanah">Rosh Hashanah</string>
+    <string name="holidays_yom_kippur">Yom Kippur</string>
+    <string name="holidays_columbus_day">Columbus Day</string>
+    <string name="holidays_halloween">Halloween</string>
+    <string name="holidays_thanksgiving">Thanksgiving</string>
+    <string name="holidays_hanukkuh">Hanukkuh</string>
+    <string name="holidays_christmas_eve">Christmas Eve</string>
+    <string name="holidays_christmas">Christmas</string>
+    <string name="holidays_new_years_eve">New Year\'s Eve</string>
+    <string name="holidays_wedding">Wedding</string>
+    <string name="holidays_wedding_anniversary">Wedding anniversary</string>
+    <string name="holidays_birthday">Birthday</string>
+    <string name="holidays_vacation">Vacation</string>
+    <!-- Years -->
+    <string name="years_year">Year</string>
+    <string name="years_last_year">Last year</string>
+    <string name="years_this_year">This year</string>
+    <string name="years_next_year">Next year</string>
+    <!-- Directions -->
+    <string name="direction_east">East</string>
+    <string name="direction_left">Left</string>
+    <string name="direction_north">North</string>
+    <string name="direction_right">Right</string>
+    <string name="direction_south">South</string>
+    <string name="direction_west">West</string>
+    <!-- Phrases -->
+    <!-- Numbers -->
+    <!-- Number Categories-->
+    <string name="category_cardinal">Cardinal</string>
+    <string name="category_ordinal">Ordinal</string>
+    <!-- Cardinal -->
+    <string name="cardinal_first">First</string>
+    <string name="cardinal_second">Second</string>
+    <string name="cardinal_third">Third</string>
+    <string name="cardinal_fourth">Fourth</string>
+    <string name="cardinal_fifth">Fifth</string>
+    <string name="cardinal_sixth">Sixth</string>
+    <string name="cardinal_seventh">Seventh</string>
+    <string name="cardinal_eighth">Eighth</string>
+    <string name="cardinal_ninth">Ninth</string>
+    <string name="cardinal_tenth">Tenth</string>
+    <string name="cardinal_last">Last</string>
+    <!-- Ordinal -->
+    <string name="ordinal_hundred">One Hundred</string>
+    <string name="ordinal_thousand">One Thousand</string>
+    <string name="ordinal_million">One Million</string>
+    <!-- Ordinal Categories -->
+    <string name="category_ten">0-10</string>
+    <string name="category_twenty">11-19</string>
+    <string name="category_thirty">20-29</string>
+    <string name="category_tens">Tens</string>
+    <!-- 0-10 -->
+    <string name="ten_zero">Zero</string>
+    <string name="ten_one">One</string>
+    <string name="ten_two">Two</string>
+    <string name="ten_three">Three</string>
+    <string name="ten_four">Four</string>
+    <string name="ten_five">Five</string>
+    <string name="ten_six">Six</string>
+    <string name="ten_seven">Seven</string>
+    <string name="ten_eight">Eight</string>
+    <string name="ten_nine">Nine</string>
+    <string name="ten_ten">Ten</string>
+    <!-- 11-19 -->
+    <string name="twenty_eleven">Eleven</string>
+    <string name="twenty_twelve">Twelve</string>
+    <string name="twenty_thirteen">Thirteen</string>
+    <string name="twenty_fourteen">Fourteen</string>
+    <string name="twenty_fifteen">Fifteen</string>
+    <string name="twenty_sixteen">Sixteen</string>
+    <string name="twenty_seventeen">Seventeen</string>
+    <string name="twenty_eighteen">Eighteen</string>
+    <string name="twenty_nineteen">Nineteen</string>
+    <!-- 20-29 -->
+    <string name="thirty_twenty">Twenty</string>
+    <string name="thirty_one">Twenty-one</string>
+    <string name="thirty_two">Twenty-two </string>
+    <string name="thirty_three">Twenty-three</string>
+    <string name="thirty_four">Twenty-four</string>
+    <string name="thirty_five">Twenty-five</string>
+    <string name="thirty_six">Twenty-six</string>
+    <string name="thirty_seven">Twenty-seven</string>
+    <string name="thirty_eight">Twenty-eight</string>
+    <string name="thirty_nine">Twenty-nine</string>
+    <!-- Tens -->
+    <string name="tens_thirty">Thirty</string>
+    <string name="tens_forty">Forty</string>
+    <string name="tens_fifty">Fifty</string>
+    <string name="tens_sixty">Sixty</string>
+    <string name="tens_seventy">Seventy</string>
+    <string name="tens_eighty">Eighty</string>
+    <string name="tens_ninety">Ninety</string>
+    <!-- Household Terms -->
+    <!-- Household Terms Categories -->
+    <string name="category_objects">Objects</string>
+    <string name="category_house_places">Places</string>
+    <!-- Objects -->
+    <string name="objects_bed">Bed</string>
+    <string name="objects_camera">Camera</string>
+    <string name="objects_chair">Chair</string>
+    <string name="objects_clock">Clock</string>
+    <string name="objects_computer">Computer</string>
+    <string name="objects_couch">Couch</string>
+    <string name="objects_laptop">Laptop</string>
+    <string name="objects_phone">Phone</string>
+    <string name="objects_radio">Radio</string>
+    <string name="objects_table">Table</string>
+    <string name="objects_tv">TV</string>
+    <!-- Places -->
+    <string name="house_places_apartment">Apartment</string>
+    <string name="house_places_bsaement">Basement</string>
+    <string name="house_places_bedroom">Bedroom</string>
+    <string name="house_places_dining">Dining room</string>
+    <string name="house_places_floor">Floor</string>
+    <string name="house_places_garden">Garden</string>
+    <string name="house_places_house">House</string>
+    <string name="house_places_kitchen">Kitchen</string>
+    <string name="house_places_laundry">Laundry room</string>
+    <string name="house_places_living">Living room</string>
+    <string name="house_places_patio">Patio</string>
+    <string name="house_places_stairs">Stairs</string>
+    <!-- Sports -->
+    <string name="sport_baseball">Baseball</string>
+    <string name="sport_basketball">Basketball</string>
+    <string name="sport_court">Court</string>
+    <string name="sport_field">Field</string>
+    <string name="sport_game">Game</string>
+    <string name="sport_match">Match</string>
+    <string name="sport_soccer">Soccer</string>
+    <string name="sport_football">Football</string>
+    <string name="sport_team">Team</string>
+    <string name="sport_volleyball">Volleyball</string>
+    <!-- Parties -->
+    <string name="parties_party">Party</string>
+    <string name="parties_gift">Gift</string>
+    <string name="parties_decorations">Decorations</string>
+    <string name="parties_balloon">Balloon</string>
+    <!-- Countries -->
+    <string name="category_nationalities">Nationalities</string>
+    <!-- Countries -->
+    <string name="country_canada">Canada</string>
+    <string name="country_china">China</string>
+    <string name="country_country">Country</string>
+    <string name="country_england">England</string>
+    <string name="country_france">France</string>
+    <string name="country_germany">Germany</string>
+    <string name="country_italy">Italy</string>
+    <string name="country_mexico">Mexico</string>
+    <string name="country_portugal">Portugal</string>
+    <string name="country_russia">Russia</string>
+    <string name="country_spain">Spain</string>
+    <string name="country_us">USA (US)</string>
+    <!-- Languages -->
+    <string name="lang_chinese">Chinese</string>
+    <string name="lang_english">English</string>
+    <string name="lang_french">French</string>
+    <string name="lang_german">German</string>
+    <string name="lang_italian">Italian</string>
+    <string name="lang_language">Language</string>
+    <string name="lang_portugal">Portuguese</string>
+    <string name="lang_russian">Russian</string>
+    <string name="lang_spanish">Spanish</string>
+    <!-- Nationality -->
+    <string name="nationality_african">African</string>
+    <string name="nationality_american">American</string>
+    <string name="nationality_asian">Asian</string>
+    <string name="nationality_european">European</string>
+    <string name="nationality_hispanic">Hispanic</string>
+    <string name="nationality_mexican">Mexican</string>
+    <string name="nationality_nationality">Nationality</string>
+    <!-- Calendar Nouns -->
+    <!-- People -->
+    <string name="category_family">Family</string>
+    <string name="category_persons">Persons</string>
+    <!-- Transportation -->
+    <string name="transportation_airplane">Airplane</string>
+    <string name="transportation_bike">Bike</string>
+    <string name="transportation_bus">Bus</string>
+    <string name="transportation_car">Car</string>
+    <string name="transportation_chariot">Chariot</string>
+    <string name="transportation_skateboard">Skateboard</string>
+    <string name="transportation_subway">Subway</string>
+    <string name="transportation_train">Train</string>
+    <!-- Family -->
+    <string name="family_aunt">Aunt</string>
+    <string name="family_brother">Brother</string>
+    <string name="family_cousin">Cousin</string>
+    <string name="family_daughter">Daughter</string>
+    <string name="family_family">Family</string>
+    <string name="family_father">Father</string>
+    <string name="family_granddaughter">Granddaughter</string>
+    <string name="family_grandfather">Grandfather</string>
+    <string name="family_grandmother">Grandmother</string>
+    <string name="family_grandson">Grandson</string>
+    <string name="family_mother">Mother</string>
+    <string name="family_nephew">Nephew</string>
+    <string name="family_niece">Niece</string>
+    <string name="family_sister">Sister</string>
+    <string name="family_son">Son</string>
+    <string name="family_uncle">Uncle</string>
+    <!-- Persons -->
+    <string name="person_boy">The boy</string>
+    <string name="person_girl">The girl</string>
+    <string name="person_man">The man</string>
+    <string name="person_people">The people</string>
+    <string name="person_person">The person</string>
+    <string name="person_woman">The woman</string>
+    <!-- Clothing -->
+    <string name="clothing_clothes">The clothes</string>
+    <!-- Clothing Categories -->
+    <string name="category_tops">Tops</string>
+    <string name="category_bottoms">Bottoms</string>
+    <string name="category_shoes">Shoes</string>
+    <string name="category__clothes_other">Other clothes</string>
+    <string name="category_jewellery">Jewellery</string>
+    <!-- Tops -->
+    <string name="tops_dress">The dress</string>
+    <string name="tops_shirt">The shirt</string>
+    <string name="tops_t_shirt">The t-Shirt</string>
+    <!-- Bottoms -->
+    <string name="bottom_jeans">The jeans</string>
+    <string name="bottom_pants">The pants</string>
+    <string name="bottom_shorts">The shorts</string>
+    <!-- Shoes -->
+    <string name="shoes_shoes">The shoes</string>
+    <string name="shoes_boots">The boots</string>
+    <string name="shoes_dress_shoes">The dress shoes</string>
+    <string name="shoes_flip_flops">The flip-flops</string>
+    <!-- Other -->
+    <string name="clothing_other_jacket">The jacket</string>
+    <string name="clothing_other_suit">The suit</string>
+    <string name="clothing_other_bathing_suit">Bathing suit</string>
+    <string name="clothing_other_hat">The hat</string>
+    <!-- Jewellery -->
+    <string name="jew_earrings">The earrings</string>
+    <string name="jew_watch">The watch</string>
+    <string name="jew_rings">The rings</string>
+    <string name="jew_bracelet">The bracelet</string>
+    <string name="jew_necklace">The necklace</string>
+    <!-- School -->
+    <!-- School Categories -->
+    <string name="category_classes">Classes</string>
+    <string name="category_school_other">Other</string>
+    <string name="category_school_places">Places</string>
+    <!-- Classes -->
+    <string name="classes_algebra">Algebra</string>
+    <string name="classes_art">Art</string>
+    <string name="classes_biology">Biology</string>
+    <string name="classes_calculus">Calculus</string>
+    <string name="classes_chemistry">Chemistry</string>
+    <string name="classes_class">Class</string>
+    <string name="classes_comp_sci">Computer Science</string>
+    <string name="classes_history">History</string>
+    <string name="classes_math">Math</string>
+    <string name="classes_music">Music</string>
+    <string name="classes_physics">Physics</string>
+    <string name="classes_psy">Psychology</string>
+    <string name="classes_science">Science</string>
+    <!-- Other -->
+    <string name="school_other_backpack">Backpack</string>
+    <string name="school_other_classmate">Classmate</string>
+    <string name="school_other_desk">Desk</string>
+    <string name="school_other_essay">Essay</string>
+    <string name="school_other_notes">Notes</string>
+    <string name="school_other_paper">Paper</string>
+    <string name="school_other_pen">Pen</string>
+    <string name="school_other_pencil">Pencil</string>
+    <string name="school_other_student">Student</string>
+    <string name="school_other_teacher">Teacher</string>
+    <string name="school_other_test">Test</string>
+    <!-- Places -->
+    <string name="places_cafeteria">Cafeteria</string>
+    <string name="places_classroom">Classroom</string>
+    <string name="places_college">College</string>
+    <string name="places_gym">Gym</string>
+    <string name="places_lab">Laboratory</string>
+    <string name="places_library">Library</string>
+    <string name="places_school">School</string>
+    <!-- Food and Drink -->
+    <!-- Food -->
+    <string name="food_apple">The apple</string>
+    <string name="food_beans">The beans</string>
+    <string name="food_breakfast">The breakfast</string>
+    <string name="food_chicken">The chicken</string>
+    <string name="food_dessert">The dessert</string>
+    <string name="food_dinner">The dinner</string>
+    <string name="food_food">The food</string>
+    <string name="food_fruit">The fruits</string>
+    <string name="food_grape">The grape</string>
+    <string name="food_lemon">The lemon</string>
+    <string name="food_lime">The lime</string>
+    <string name="food_lunch">The lunch</string>
+    <string name="food_meat">The meat</string>
+    <string name="food_orange">The orange</string>
+    <string name="food_steak">The steak</string>
+    <string name="food_strawberry">The strawberry</string>
+    <string name="food_tomato">The tomato</string>
+    <string name="food_vegetables">The vegetables</string>
+    <!-- Drink -->
+    <string name="category_drink">Drinks</string>
+    <string name="drink_beer">The beer</string>
+    <string name="drink_drink">The drink</string>
+    <string name="drink_juice">The juice</string>
+    <string name="drink_lemonade">The lemonade</string>
+    <string name="drink_soda">The soda</string>
+    <string name="drink_water">The water</string>
+    <!-- Other Words -->
+    <!-- Places -->
+    <string name="places_hotel">The hotel</string>
+    <string name="places_market">The market</string>
+    <string name="places_restaurant">The restaurant</string>
+    <string name="places_store">The store</string>
+    <string name="places_supermarket">The supermarket</string>
+    <!-- Land -->
+    <string name="land_mountain">The mountain</string>
+    <string name="land_river">The river</string>
+    <string name="land_valley">The valley</string>
+    <string name="land_ocean">The ocean</string>
+    <string name="land_continent">The continent</string>
+    <string name="land_sea">The sea</string>
+    <string name="land_beach">The beach</string>
+    <string name="land_land">The land</string>
+    <!-- Pronouns -->
+    <!-- Personal Pronouns -->
+    <!-- Subject Pronouns -->
+    <string name="subject_me">I</string>
+    <string name="subject_you_informal_singular">You (Informal)</string>
+    <string name="subject_you_formal_singular">You (Formal)</string>
+    <string name="subject_you_plural">You All</string>
+    <string name="subject_us">Us</string>
+    <string name="subject_he">He/It</string>
+    <string name="subject_she">She</string>
+    <string name="subject_they">They</string>
+    <!-- Possessive Independent Pronouns -->
+    <string name="poss_ind_me">Mine</string>
+    <string name="poss_ind_you_informal_singular">Yours (Informal)</string>
+    <string name="poss_ind_you_formal_singular">Yours (Formal)</string>
+    <string name="poss_ind_he">His</string>
+    <string name="poss_ind_she">Hers</string>
+    <string name="poss_ind_us">Ours</string>
+    <string name="poss_ind_you_plural">You all\'s</string>
+    <string name="poss_ind_they">Theirs</string>
+    <!-- Possessive Dependent Pronouns -->
+    <string name="poss_dep_me">My</string>
+    <string name="poss_dep_you_informal">Your (Informal)</string>
+    <string name="poss_dep_you_formal">Your (Formal) </string>
+    <string name="poss_dep_he">His</string>
+    <string name="poss_dep_she">Her</string>
+    <string name="poss_dep_us">Our</string>
+    <string name="poss_dep_you_plural">You all\'s</string>
+    <string name="poss_dep_they">Their</string>
+    <!-- Reflexive Pronouns -->
+    <string name="reflexive_me">Myself</string>
+    <string name="reflexive_you_informal_singular">Yourself</string>
+    <string name="reflexive_you_formal_singular">You (Formal)</string>
+    <string name="reflexive_you_informal_plural">You (Informal)</string>
+    <string name="reflexive_you_plural">Yourselves</string>
+    <string name="reflexive_us">Ourselves</string>
+    <string name="reflexive_he">Himself</string>
+    <string name="reflexive_she">Herself</string>
+    <!-- Object Pronouns -->
+    <string name="object_me">Me</string>
+    <string name="object_you_informal_singular">You (Informal)</string>
+    <string name="object_you_formal_singular">You (Formal)</string>
+    <string name="object_you_plural">You All</string>
+    <string name="object_us">Us</string>
+    <string name="object_he">Him</string>
+    <string name="object_she">Her</string>
+    <string name="object_they">Them</string>
+    <!-- Demonstrative Pronouns -->
+    <string name="dem_this">This</string>
+    <string name="dem_that">That</string>
+    <string name="dem_these">These</string>
+    <string name="dem_those">Those</string>
+    <!-- Interrogative Pronouns -->
+    <string name="int_who">Who</string>
+    <string name="int_whose">Whose</string>
+    <string name="int_what">What</string>
+    <string name="int_which">Which</string>
+    <string name="int_where">Where</string>
+    <string name="int_when">When</string>
+    <string name="int_how">How</string>
+    <string name="int_how_many">How many</string>
+    <!-- Indefinite Pronouns -->
+    <string name="ind_all">All</string>
+    <string name="ind_anyone">Anyone</string>
+    <string name="ind_anything">Anything</string>
+    <string name="ind_both">Both</string>
+    <string name="ind_each">Each</string>
+    <string name="ind_either">Either</string>
+    <string name="ind_everyone">Everyone</string>
+    <string name="ind_everything">Everything</string>
+    <string name="ind_few">Few</string>
+    <string name="ind_most">Most</string>
+    <string name="ind_no_one">No one</string>
+    <string name="ind_none">None</string>
+    <string name="ind_nothing">Nothing</string>
+    <string name="ind_other">Other</string>
+    <string name="ind_some">Some</string>
+    <string name="ind_someone">Someone</string>
+    <string name="ind_something">Something</string>
+    <!-- Verbs -->
+    <!-- A - D -->
+    <string name="v_arrive">To arrive</string>
+    <string name="v_ask">To ask</string>
+    <string name="v_ask_for">To ask for</string>
+    <string name="v_bathe">To bathe</string>
+    <string name="v_be">To be</string>
+    <string name="v_begin">To begin</string>
+    <string name="v_believe">To believe</string>
+    <string name="v_bring">To bring</string>
+    <string name="v_buy">To buy</string>
+    <string name="v_call">To call</string>
+    <string name="v_celebrate">To celebrate</string>
+    <string name="v_clean">To clean</string>
+    <string name="v_close">To close</string>
+    <string name="v_come">To come</string>
+    <string name="v_continue">To continue</string>
+    <string name="v_die">To die</string>
+    <string name="v_do">To do</string>
+    <string name="v_drink">To drink</string>
+    <!-- E - M -->
+    <string name="v_eat">To eat</string>
+    <string name="v_breakfast">To eat breakfast</string>
+    <string name="v_dinner">To eat dinner</string>
+    <string name="v_lunch">To eat lunch</string>
+    <string name="v_end">To end</string>
+    <string name="v_find">To find</string>
+    <string name="v_give">To give</string>
+    <string name="v_go">To go</string>
+    <string name="v_have">To have</string>
+    <string name="v_listen">To listen</string>
+    <string name="v_hope">To hope</string>
+    <string name="v_hurt">To hurt</string>
+    <string name="v_introduce">To introduce</string>
+    <string name="v_know_f">To know (facts)</string>
+    <string name="v_know_p">To know (people)</string>
+    <string name="v_laugh">To laugh</string>
+    <string name="v_leave">To leave</string>
+    <string name="v_like">To like</string>
+    <string name="v_live">To live</string>
+    <string name="v_lose">To lose</string>
+    <string name="v_love">To love</string>
+    <!-- N - S -->
+    <string name="v_nap">To nap</string>
+    <string name="v_need">To need</string>
+    <string name="v_open">To open</string>
+    <string name="v_pass">To pass (time)</string>
+    <string name="v_play">To play</string>
+    <string name="v_read">To read</string>
+    <string name="v_remember">To remember</string>
+    <string name="v_return">To return</string>
+    <string name="v_run">To run</string>
+    <string name="v_see">To see</string>
+    <string name="v_sell">To sell</string>
+    <string name="v_should">To should</string>
+    <string name="v_sleep">To sleep</string>
+    <string name="v_speak">To speak</string>
+    <string name="v_stay">To stay</string>
+    <string name="v_swim">To swim</string>
+    <!-- T - Z -->
+    <string name="v_talk">To talk</string>
+    <string name="v_taste">To taste</string>
+    <string name="v_tell">To tell</string>
+    <string name="v_think">To think</string>
+    <string name="v_travel">To travel</string>
+    <string name="v_understand">To understand</string>
+    <string name="v_walk">To walk</string>
+    <string name="v_want">To want</string>
+    <string name="v_wash">To wash</string>
+    <string name="v_watch">To watch</string>
+    <string name="v_win">To win</string>
+    <string name="v_write">To write</string>
+    <!-- Verbs -->
+    <!-- Notes on Verbs -->
+    <string name="category_verbs_notes">Notes on Spanish verbs</string>
+    <string name="verbs_notes">\tVerbs in Spanish follow a specific set of rules for conjugation,
+        outlined in the sections below. Their indefinite forms end in \"ar,\" \"er,\" or \"ir.\" When
+        a verb is directly followed by a another verb, the latter verb uses its indefinite form.
+    </string>
+    <string name="category_ser_estar">Ser vs. Estar</string>
+    <string name="category_gustar">Gustar</string>
+    <string name="category_ser">Ser</string>
+    <string name="category_estar">Estar</string>
+    <!-- Verb Conjugations -->
+    <string name="category_conjugation">Conjugations</string>
+    <string name="conj_notes">\tVerb conjugations end in the following, depending on the subject:
+        I (yo) - \"o\"; You, informal (tú) - \"as/es\"; he/she/you, formal (el/ella/usted) -
+        \"a/e\"; we (nosotros) - \"amos/emos/imos\"; They/You All (Ellos/Ellas/Ustedes) - \"an/en\";
+    </string>
+    <string name="conj_ex_yo">I believe she\'s in the bathroom.
+        \nYo creo ella E\está en el baño.</string>
+    <string name="conj_ex_tu">You should go to sleep.
+        \nTú debes dormir.</string>
+    <string name="conj_ex_nosotros">We live close to the school.
+        \nNosotros vivimos cerca de la escuela.</string>
+    <string name="conj_ex_el_ella_usted">She plays volleyball.
+        \nElla juega el voleibol.</string>
+    <string name="conj_ex_ellos_ellas_ustedes">They write notes in class.
+        \nEllos escriben las notas en clase.</string>
+    <!-- Verb Gustar -->
+    <string name="gustar_notes">\tGustar follows the regular set of rules for conjugation. However, since
+        it literally means \"to please,\" (as in apples please me) it is conjugated for the
+        object/activity, not the person.
+    </string>
+    <string name="gustar_ex_yo_singular">I like to sing.
+        \nMe gusta cantar.</string>
+    <string name="gustar_ex_el_ella_usted_singular">He likes the ocean.
+        \nSe gusta el océano. </string>
+    <string name="gustar_ex_nos_plural">We like the rings.
+        \nNos gustan los anillos.</string>
+    <string name="gustar_ex_ellos_ellas_ustedes">They like the fish.
+        \nEllos gustan los pescados.</string>
+    <!-- Ser and Estar -->
+    <string name="ser_estar_notes">\tIn Spanish, there are two words that mean \"to be\": ser and estar.
+        Ser is used to describe people, show possession, and when discussing time. Estar is used for
+        describing emotional states and locations. Additionally, to describe what someone is currently
+        doing, use the appropriate form of estar and end the verb in \"ando\" or \"iendo.\"
+    </string>
+    <!-- Ser -->
+    <string name="ser_me">I am</string>
+    <string name="ser_you">You (informal) are</string>
+    <string name="ser_we">We are</string>
+    <string name="ser_he_she_you">He/She/You (formal) are </string>
+    <string name="ser_they">They are</string>
+    <!-- Verb Categories -->
+    <string name="category_ad">A - D</string>
+    <string name="category_eo">E - M</string>
+    <string name="category_ps">N - S</string>
+    <string name="category_tz">T - Z</string>
+    <!-- Prepositions -->
+    <!-- Prepositions Spatial -->
+    <string name="prep_at">At</string>
+    <string name="prep_away">Away</string>
+    <string name="prep_behind">Behind</string>
+    <string name="prep_between">Between</string>
+    <string name="prep_from">From</string>
+    <string name="prep_in_front_of">In front of</string>
+    <string name="prep_in">In</string>
+    <string name="prep_into">Into</string>
+    <string name="prep_of">Of</string>
+    <string name="prep_on">On</string>
+    <string name="prep_outside">Outside</string>
+    <string name="prep_over">Over</string>
+    <string name="prep_through">Through</string>
+    <string name="prep_towards">Towards</string>
+    <string name="prep_under">Under</string>
+    <string name="prep_with">With</string>
+    <!-- Prepositions Chronological -->
+    <string name="prep_after">After</string>
+    <string name="prep_before">Before</string>
+    <string name="prep_during">During</string>
+    <!-- Phrases -->
+    <!-- Phrases Time -->
+    <string name="phrases_what_time">What time is it?</string>
+    <string name="phrases_time_is">It is [hour] o\'clock</string>
+    <string name="phrases_at_what_time">At what time is the [event]?</string>
+    <string name="phrases_event_at">[Event] is at...</string>
+    <!-- Phrases Places -->
+    <string name="phrases_where_is">Where is the...</string>
+    <string name="phrases_where_from">Where are you from?</string>
+    <string name="phrases_i_am_from">I am from...</string>
+    <string name="phrases_i_live">I live in/at...</string>
+    <string name="phrases_where_am_i">Where am I?</string>
+    <string name="phrases_where_bathroom">Where is the bathroom?</string>
+    <string name="phrases_where_live">Where do you live?</string>
+    <!-- Phrases About -->
+    <string name="phrases_how_old">How old are you?</string>
+    <string name="phrases_what_name">What is your name?</string>
+    <string name="phrases_my_name">My name is...</string>
+    <string name="phrases_your_name">Where are you from?</string>
+    <string name="phrases_your_birthday">What is your name?</string>
+    <!-- Phrases Descriptive -->
+    <string name="phrases_birthday">My birthday is the [day] of [month].</string>
+    <string name="phrases_age">I\'m __ years old.</string>
+    <string name="phrases_cold">I\'m cold.</string>
+    <string name="phrases_have_to">I have to... </string>
+    <string name="phrases_hot">I\'m hot.</string>
+    <string name="phrases_hungry">I\'m hungry.</string>
+    <string name="phrases_thirsty">I\'m thirsty.</string>
+    <string name="phrases_tired">I\'m sleepy.</string>
+    <string name="phrases_scared">I\'m scared.</string>
+    <string name="phrases_lucky">I\'m lucky.</string>
+    <string name="category_food_food">Food</string>
+</resources>

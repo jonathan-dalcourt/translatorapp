@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary_color">#3F51B5</color>
+    <!-- Primary dark color of the app (shown in the status bar) -->
+    <color name="primary_dark_color">#303F9F</color>
+
+    <!-- Background color for app -->
+    <color name="tan_background">#FFF7DA</color>
+
+    <!-- Background color for the numbers category -->
+    <color name="category_nouns">#FF5252</color>
+
+    <!-- Background color for the family members category -->
+    <color name="category_pronouns">#FFD740</color>
+
+    <!-- Background color for the colors category -->
+    <color name="category_verbs">#CCFF90</color>
+
+    <!-- Background color for the phrases category -->
+    <color name="category_adjectives">#64FFDA</color>
+
+    <!-- Background color for the phrases category -->
+    <color name="category_prepositions">#009688</color>
+
+    <!-- Background color for the phrases category -->
+    <color name="category_phrases">#3F51B5</color>
+</resources>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/ser_estar_notes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/NotesStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ser_estar_notes" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="@dimen/divider_margin"
+            android:layout_marginRight="@dimen/divider_margin"
+            android:background="@android:color/darker_gray" />
+
+        <TextView
+            android:id="@+id/ser_activity"
+            style="@style/CategoryStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableEnd="@drawable/ic_navigate"
+            android:drawableRight="@drawable/ic_navigate"
+            android:paddingEnd="32dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="32dp"
+            android:paddingStart="16dp"
+            android:text="@string/category_ser" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="@dimen/divider_margin"
+            android:layout_marginRight="@dimen/divider_margin"
+            android:background="@android:color/darker_gray" />
+
+        <TextView
+            android:id="@+id/estar_activity"
+            style="@style/CategoryStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableEnd="@drawable/ic_navigate"
+            android:drawableRight="@drawable/ic_navigate"
+            android:paddingEnd="32dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="32dp"
+            android:paddingStart="16dp"
+            android:text="@string/category_estar" />
+    </LinearLayout>
+</ScrollView>

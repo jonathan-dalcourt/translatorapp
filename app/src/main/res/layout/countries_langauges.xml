@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/countries_languages">
+
+    <TextView
+        android:id="@+id/countries_activity"
+        style="@style/CategoryStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/category_countries"
+        android:drawableEnd="@drawable/ic_navigate"
+        android:drawableRight="@drawable/ic_navigate"
+        android:paddingEnd="32dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="32dp"
+        android:paddingStart="16dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        android:layout_marginLeft="@dimen/divider_margin"
+        android:layout_marginRight="@dimen/divider_margin" />
+
+
+    <TextView
+        android:id="@+id/languages_activity"
+        style="@style/CategoryStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/category_languages"
+        android:drawableEnd="@drawable/ic_navigate"
+        android:drawableRight="@drawable/ic_navigate"
+        android:paddingEnd="32dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="32dp"
+        android:paddingStart="16dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        android:layout_marginLeft="@dimen/divider_margin"
+        android:layout_marginRight="@dimen/divider_margin" />
+
+    <TextView
+        android:id="@+id/nation_activity"
+        style="@style/CategoryStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/category_nationalities"
+        android:drawableEnd="@drawable/ic_navigate"
+        android:drawableRight="@drawable/ic_navigate"
+        android:paddingEnd="32dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="32dp"
+        android:paddingStart="16dp" />
+</LinearLayout>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/calendar">
+
+    <TextView
+        android:id="@+id/days_activity"
+        style="@style/CategoryStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/category_days"
+        android:drawableEnd="@drawable/ic_navigate"
+        android:drawableRight="@drawable/ic_navigate"
+        android:paddingEnd="32dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="32dp"
+        android:paddingStart="16dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        android:layout_marginLeft="@dimen/divider_margin"
+        android:layout_marginRight="@dimen/divider_margin" />
+
+
+    <TextView
+        android:id="@+id/months_activity"
+        style="@style/CategoryStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/category_months"
+        android:drawableEnd="@drawable/ic_navigate"
+        android:drawableRight="@drawable/ic_navigate"
+        android:paddingEnd="32dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="32dp"
+        android:paddingStart="16dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        android:layout_marginLeft="@dimen/divider_margin"
+        android:layout_marginRight="@dimen/divider_margin" />
+
+    <TextView
+        android:id="@+id/years_activity"
+        style="@style/CategoryStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/category_years"
+        android:drawableEnd="@drawable/ic_navigate"
+        android:drawableRight="@drawable/ic_navigate"
+        android:paddingEnd="32dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="32dp"
+        android:paddingStart="16dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        android:layout_marginLeft="@dimen/divider_margin"
+        android:layout_marginRight="@dimen/divider_margin" />
+
+    <TextView
+        android:id="@+id/seasons_activity"
+        style="@style/CategoryStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/category_seasons"
+        android:drawableEnd="@drawable/ic_navigate"
+        android:drawableRight="@drawable/ic_navigate"
+        android:paddingEnd="32dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="32dp"
+        android:paddingStart="16dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        android:layout_marginLeft="@dimen/divider_margin"
+        android:layout_marginRight="@dimen/divider_margin" />
+
+    <TextView
+        android:id="@+id/holidays_activity"
+        style="@style/CategoryStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/category_holidays"
+        android:drawableEnd="@drawable/ic_navigate"
+        android:drawableRight="@drawable/ic_navigate"
+        android:paddingEnd="32dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="32dp"
+        android:paddingStart="16dp" />
+</LinearLayout>

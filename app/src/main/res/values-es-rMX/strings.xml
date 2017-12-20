@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Translator</string>
+    <string name="color_red">Rojo</string>
+    <string name="color_yellow">Amarillo</string>
+    <string name="color_green">Verde</string>
+    <string name="color_blue">Azul</string>
+    <string name="color_black">Negro</string>
+    <string name="color_white">Blanco</string>
+    <string name="color_purple">Morado</string>
+    <string name="color_orange">Anaranjado</string>
+    <string name="color_brown">Marrón</string>
+    <string name="color_grey">Rucio</string>
+    <string name="personal_me">Yo</string>
+    <string name="personal_he">El</string>
+    <string name="personal_she">Ella</string>
+    <string name="personal_they">Ellos</string>
+    <string name="personal_us">Nosotros</string>
+    <string name="personal_you_formal_singular">Usted</string>
+    <string name="personal_you_informal_singular">Tú</string>
+    <string name="personal_you_plural">Ustedes</string>
+</resources>

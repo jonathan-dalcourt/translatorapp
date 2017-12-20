@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dalcourt.jonathan.translator">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+        </activity>
+        <activity android:name=".SearchResultsActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+        </activity>
+        <!-- Activities from main activity -->
+        <activity
+            android:name=".PronounsActivity"
+            android:label="Pronouns" />
+        <activity
+            android:name=".NounsActivity"
+            android:label="Nouns" />
+        <activity
+            android:name=".VerbsActivity"
+            android:label="Verbs" />
+        <activity
+            android:name=".AdjectivesActivity"
+            android:label="Adjectives" />
+        <activity
+            android:name=".PrepositionsActivity"
+            android:label="Prepositions" />
+        <activity
+            android:name=".PhrasesActivity"
+            android:label="Phrases" />
+        <!-- Activities from Adjectives -->
+        <activity
+            android:name=".adjectives.AdjNotesActivity"
+            android:label="Notes on Spanish Adjectives" />
+        <activity
+            android:name=".adjectives.PhysicalActivity"
+            android:label="Physical Attributes" />
+        <activity
+            android:name=".adjectives.PersonalityActivity"
+            android:label="Personality Attributes" />
+        <activity
+            android:name=".adjectives.AdjOtherActivity"
+            android:label="Other Adjectives" />
+        <!-- Activities from Nouns -->
+        <activity
+            android:name=".nouns.AnimalsActivity"
+            android:label="Animals" />
+        <activity
+            android:name=".nouns.NounsNotesActivity"
+            android:label="Notes on Spanish Nouns" />
+        <activity
+            android:name=".nouns.CalendarActivity"
+            android:label="Calendar" />
+        <activity
+            android:name=".nouns.NumbersActivity"
+            android:label="Numbers" />
+        <activity
+            android:name=".nouns.SportsActivity"
+            android:label="Sports" />
+        <activity
+            android:name=".adjectives.ColorsActivity"
+            android:label="Colors" />
+        <activity
+            android:name=".nouns.HouseholdActivity"
+            android:label="Household Terms" />
+        <activity
+            android:name=".nouns.PeopleActivity"
+            android:label="Family" />
+        <activity
+            android:name=".nouns.SchoolActivity"
+            android:label="School" />
+        <activity
+            android:name=".nouns.PlacesActivity"
+            android:label="Places" />
+        <activity
+            android:name=".nouns.Countries_LanguagesActivity"
+            android:label="Countries and Languages" />
+        <activity
+            android:name=".nouns.OtherActivity"
+            android:label="Other Nouns" />
+        <activity
+            android:name=".nouns.FoodandDrinkActivity"
+            android:label="Food and Drink" />
+        <activity
+            android:name=".nouns.TransportationActivity"
+            android:label="Transportation" />
+        <activity
+            android:name=".nouns.LandActivity"
+            android:label="Land Features" />
+        <activity
+            android:name=".nouns.DirectionsActivity"
+            android:label="Directions" />
+        <activity
+            android:name=".nouns.ClothingActivity"
+            android:label="Clothing" />
+        <!-- Activities from Countries and Languages -->
+        <activity
+            android:name=".nouns.countrieslangauges.CountriesActivity"
+            android:label="Countries" />
+        <activity
+            android:name=".nouns.countrieslangauges.LanguagesActivity"
+            android:label="Languages" />
+        <!-- Activities from Calendar -->
+        <activity
+            android:name=".nouns.calendar.DaysActivity"
+            android:label="Days of the Week" />
+        <activity
+            android:name=".nouns.calendar.MonthsActivity"
+            android:label="Months" />
+        <activity
+            android:name=".nouns.calendar.YearsActivity"
+            android:label="Years" />
+        <activity
+            android:name=".nouns.calendar.SeasonsActivity"
+            android:label="Seasons" />
+        <activity
+            android:name=".nouns.calendar.HolidaysActivity"
+            android:label="Holidays" />
+        <!-- Activities from Clothing -->
+        <activity
+            android:name=".nouns.clothing.BottomActivity"
+            android:label="Bottoms" />
+        <activity
+            android:name=".nouns.clothing.TopActivity"
+            android:label="Tops" />
+        <activity
+            android:name=".nouns.clothing.JewelleryActivity"
+            android:label="Jewellery" />
+        <activity
+            android:name=".nouns.clothing.ClothesOtherActivity"
+            android:label="Other Clothes" />
+        <activity
+            android:name=".nouns.clothing.ShoesActivity"
+            android:label="Shoes" />
+        <!-- Activities from Numbers -->
+        <activity
+            android:name=".nouns.numbers.CardinalActivity"
+            android:label="Cardinal Numbers" />
+        <activity
+            android:name=".nouns.numbers.OrdinalActivity"
+            android:label="Ordinal Numbers" />
+        <!-- Activities from Ordinal -->
+        <activity
+            android:name=".nouns.numbers.ordinal.TenActivity"
+            android:label="0-10" />
+        <activity
+            android:name=".nouns.numbers.ordinal.TwentyActivity"
+            android:label="11-19" />
+        <activity
+            android:name=".nouns.numbers.ordinal.ThirtyActivity"
+            android:label="20-29" />
+        <activity
+            android:name=".nouns.numbers.ordinal.TensActivity"
+            android:label="Tens" />
+        <!-- Activities from Pronouns -->
+        <activity
+            android:name=".pronouns.DemonstrativeActivity"
+            android:label="Demonstrative" />
+        <activity
+            android:name=".pronouns.IndefiniteActivity"
+            android:label="Indefinite" />
+        <activity
+            android:name=".pronouns.InterrogativeActivity"
+            android:label="Interrogative" />
+        <activity
+            android:name=".pronouns.PersonalActivity"
+            android:label="Personal Pronouns" />
+        <!-- Activities from Personal Pronouns -->
+        <activity
+            android:name=".pronouns.PronounNotesActivity"
+            android:label="Notes on Spanish Pronouns" />
+        <activity
+            android:name=".pronouns.personal.ObjectActivity"
+            android:label="Object" />
+        <activity
+            android:name=".pronouns.personal.PossessiveDependent"
+            android:label="Possessive Dependent" />
+        <activity
+            android:name=".pronouns.personal.PossessiveIndependent"
+            android:label="Possessive Independent" />
+        <activity
+            android:name=".pronouns.personal.ReflexiveActivity"
+            android:label="Reflexive" />
+        <activity
+            android:name=".pronouns.personal.SubjectActivity"
+            android:label="Subject" />
+        <!-- Activities from Phrases -->
+        <activity
+            android:name=".phrases.AboutActivity"
+            android:label="About Someone" />
+        <activity
+            android:name=".phrases.DescriptiveActivity"
+            android:label="Describe Yourself" />
+        <activity
+            android:name=".phrases.LocationActivity"
+            android:label="Location" />
+        <activity
+            android:name=".phrases.TimeActivity"
+            android:label="Time" />
+        <!-- Activities from Prepositions -->
+        <activity
+            android:name=".prepositions.SpatialActivity"
+            android:label="Spatial" />
+        <activity
+            android:name=".prepositions.ChronologicalActivity"
+            android:label="Chronological" />
+        <!-- School -->
+        <activity
+            android:name=".nouns.school.SchoolPlacesActivity"
+            android:label="Places" />
+        <activity
+            android:name=".nouns.school.ClassesActivity"
+            android:label="Classes" />
+        <activity
+            android:name=".nouns.school.OtherActivity"
+            android:label="Other" />
+        <activity
+            android:name=".nouns.countrieslangauges.NationalitiesActivity"
+            android:label="Nationalities" />
+        <activity
+            android:name=".nouns.people.PersonsActivity"
+            android:label="Persons" />
+        <activity
+            android:name=".nouns.people.FamilyActivity"
+            android:label="Family" />
+        <activity
+            android:name=".nouns.fooddrink.FoodActivity"
+            android:label="Food" />
+        <activity
+            android:name=".nouns.fooddrink.DrinkActivity"
+            android:label="Drink" />
+        <activity
+            android:name=".nouns.house.HouseObjectsActivity"
+            android:label="Household Objects" />
+        <activity
+            android:name=".nouns.house.HousePlacesActivity"
+            android:label="Places" />
+        <activity
+            android:name=".nouns.PartiesActivity"
+            android:label="Parties" />
+        <!-- Verbs Notes -->
+        <activity
+            android:name=".verbs.VerbsNotesActivity"
+            android:label="Notes on Spanish Verbs" />
+        <activity
+            android:name=".verbs.ADActivity"
+            android:label="A - D" />
+        <activity
+            android:name=".verbs.EOActivity"
+            android:label="E - M" />
+        <activity
+            android:name=".verbs.PSActivity"
+            android:label="N - S" />
+        <activity
+            android:name=".verbs.TZActivity"
+            android:label="T - Z" />
+        <activity
+            android:name=".verbs.verbsnotes.ConjugationActivity"
+            android:label="Conjugations" />
+        <activity
+            android:name=".verbs.verbsnotes.GustarActivity"
+            android:label="Gustar" />
+        <activity
+            android:name=".verbs.verbsnotes.Ser_EstarActivity"
+            android:label="Ser vs. Estar" />
+        <activity
+            android:name=".verbs.verbsnotes.SerActivity"
+            android:label="Ser" />
+        <activity
+            android:name=".verbs.verbsnotes.EstarActivity"
+            android:label="Estar" />
+    </application>
+</manifest>

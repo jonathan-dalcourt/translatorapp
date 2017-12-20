@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/adjectives_activity"
+            style="@style/CategoryStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableEnd="@drawable/ic_navigate"
+            android:drawableRight="@drawable/ic_navigate"
+            android:paddingEnd="32dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="32dp"
+            android:paddingStart="16dp"
+            android:text="@string/category_adjectives" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="@dimen/divider_margin"
+            android:layout_marginRight="@dimen/divider_margin"
+            android:background="@android:color/darker_gray" />
+
+
+        <TextView
+            android:id="@+id/nouns_activity"
+            style="@style/CategoryStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableEnd="@drawable/ic_navigate"
+            android:drawableRight="@drawable/ic_navigate"
+            android:paddingEnd="32dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="32dp"
+            android:paddingStart="16dp"
+            android:text="@string/category_nouns" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="@dimen/divider_margin"
+            android:layout_marginRight="@dimen/divider_margin"
+            android:background="@android:color/darker_gray" />
+
+
+        <TextView
+            android:id="@+id/preps_activity"
+            style="@style/CategoryStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableEnd="@drawable/ic_navigate"
+            android:drawableRight="@drawable/ic_navigate"
+            android:paddingEnd="32dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="32dp"
+            android:paddingStart="16dp"
+            android:text="@string/category_prepositions" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="@dimen/divider_margin"
+            android:layout_marginRight="@dimen/divider_margin"
+            android:background="@android:color/darker_gray" />
+
+
+        <TextView
+            android:id="@+id/pronouns_activity"
+            style="@style/CategoryStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableEnd="@drawable/ic_navigate"
+            android:drawableRight="@drawable/ic_navigate"
+            android:paddingEnd="32dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="32dp"
+            android:paddingStart="16dp"
+            android:text="@string/category_pronouns" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="@dimen/divider_margin"
+            android:layout_marginRight="@dimen/divider_margin"
+            android:background="@android:color/darker_gray" />
+
+
+        <TextView
+            android:id="@+id/verbs_activity"
+            style="@style/CategoryStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableEnd="@drawable/ic_navigate"
+            android:drawableRight="@drawable/ic_navigate"
+            android:paddingEnd="32dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="32dp"
+            android:paddingStart="16dp"
+            android:text="@string/category_verbs" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="@dimen/divider_margin"
+            android:layout_marginRight="@dimen/divider_margin"
+            android:background="@android:color/darker_gray" />
+
+
+        <TextView
+            android:id="@+id/phrases_activity"
+            style="@style/CategoryStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableEnd="@drawable/ic_navigate"
+            android:drawableRight="@drawable/ic_navigate"
+            android:paddingEnd="32dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="32dp"
+            android:paddingStart="16dp"
+            android:text="@string/category_phrases" />
+
+    </LinearLayout>
+</ScrollView>

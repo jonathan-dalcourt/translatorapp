@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/nouns"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/NotesStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/adj_notes" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="@dimen/divider_margin"
+            android:layout_marginRight="@dimen/divider_margin"
+            android:background="@android:color/darker_gray" />
+
+        <TextView
+            style="@style/ExamplesStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ex" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="@dimen/divider_margin"
+            android:layout_marginRight="@dimen/divider_margin"
+            android:background="@android:color/darker_gray" />
+
+        <TextView
+            android:id="@+id/animals_activity"
+            style="@style/NotesStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/adj_ex_m_s" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="@dimen/divider_margin"
+            android:layout_marginRight="@dimen/divider_margin"
+            android:background="@android:color/darker_gray" />
+
+
+        <TextView
+            style="@style/NotesStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/adj_ex_f_s" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="@dimen/divider_margin"
+            android:layout_marginRight="@dimen/divider_margin"
+            android:background="@android:color/darker_gray" />
+
+        <TextView
+            style="@style/NotesStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/adj_ex_m_p" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="@dimen/divider_margin"
+            android:layout_marginRight="@dimen/divider_margin"
+            android:background="@android:color/darker_gray" />
+
+
+        <TextView
+            style="@style/NotesStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/adj_ex_f_p" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="@dimen/divider_margin"
+            android:layout_marginRight="@dimen/divider_margin"
+            android:background="@android:color/darker_gray" />
+
+        <TextView
+            style="@style/NotesStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/adj_ex_n_s" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="@dimen/divider_margin"
+            android:layout_marginRight="@dimen/divider_margin"
+            android:background="@android:color/darker_gray" />
+
+        <TextView
+            style="@style/NotesStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/adj_ex_n_p" />
+    </LinearLayout>
+</ScrollView>
