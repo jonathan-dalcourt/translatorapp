@@ -11,7 +11,7 @@ import com.dalcourt.jonathan.translator.word.WordAdapter;
 import java.util.ArrayList;
 
 /**
- * Created by Jon on 11/25/2017.
+ * List of Personalty Adjectives
  */
 
 public class PersonalityActivity extends AppCompatActivity {
@@ -22,26 +22,25 @@ public class PersonalityActivity extends AppCompatActivity {
         setContentView(R.layout.word_list);
 
         ArrayList<Word> words = new ArrayList<Word>();
-        words.add(new Word(getString(R.string.physical_bald), "Calvo"));
-        words.add(new Word(getString(R.string.physical_beautiful), "Linda"));
-        words.add(new Word(getString(R.string.physical_big), "Grande"));
-        words.add(new Word(getString(R.string.physical_blonde), "Rubio"));
-        words.add(new Word(getString(R.string.physical_brunnette), "Morena"));
-        words.add(new Word(getString(R.string.physical_dry), "Pequeño"));
-        words.add(new Word(getString(R.string.physical_fat), "Seco"));
-        words.add(new Word(getString(R.string.physical_handsome), "Gordo"));
-        words.add(new Word(getString(R.string.physical_long), "Guapo"));
-        words.add(new Word(getString(R.string.physical_new), "Largo"));
-        words.add(new Word(getString(R.string.physical_old), "Nuevo"));
-        words.add(new Word(getString(R.string.physical_pretty), "Viejo"));
-        words.add(new Word(getString(R.string.physical_redhead), "Bonita"));
-        words.add(new Word(getString(R.string.physical_short), "Pelirrojo"));
-        words.add(new Word(getString(R.string.physical_silver_hair), "Corto"));
-        words.add(new Word(getString(R.string.physical_skinny), "Canoso"));
-        words.add(new Word(getString(R.string.physical_small), "Delgada"));
-        words.add(new Word(getString(R.string.physical_strong), "Fuerte"));
-        words.add(new Word(getString(R.string.physical_tall), "Alto"));
-        words.add(new Word(getString(R.string.physical_ugly), "Feo"));
+        words.add(new Word(getString(R.string.personal_anxious), "Ansioso"));
+        words.add(new Word(getString(R.string.personal_disorganized),
+                "Organizado"));
+        words.add(new Word(getString(R.string.personal_excited), "Emocionado"));
+        words.add(new Word(getString(R.string.personal_foolish), "Tonto"));
+        words.add(new Word(getString(R.string.personal_funny), "Cómico"));
+        words.add(new Word(getString(R.string.personal_happy), "Contento"));
+        words.add(new Word(getString(R.string.personal_hard_working),
+                "Trabajador"));
+        words.add(new Word(getString(R.string.personal_intelligent),
+                "Inteligente"));
+        words.add(new Word(getString(R.string.personal_kind), "Contento"));
+        words.add(new Word(getString(R.string.personal_lazy), "Perezoso"));
+        words.add(new Word(getString(R.string.personal_mean), "Tacaño"));
+        words.add(new Word(getString(R.string.personal_poor), "Pobre"));
+        words.add(new Word(getString(R.string.personal_sad), "Triste"));
+        words.add(new Word(getString(R.string.personal_scary), "Espantoso"));
+        words.add(new Word(getString(R.string.personal_serious), "Serio"));
+        words.add(new Word(getString(R.string.personal_wealthy), "Rico"));
 
         // Create an {@link WordAdapter}, whose data source is a list of {@link Word}s. The
         // adapter knows how to create list items for each item in the list.

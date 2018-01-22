@@ -716,7 +716,7 @@
         \"a/e\"; we (nosotros) - \"amos/emos/imos\"; They/You All (Ellos/Ellas/Ustedes) - \"an/en\";
     </string>
     <string name="conj_ex_yo">I believe she\'s in the bathroom.
-        \nYo creo ella E\está en el baño.</string>
+        \nYo creo ella está en el baño.</string>
     <string name="conj_ex_tu">You should go to sleep.
         \nTú debes dormir.</string>
     <string name="conj_ex_nosotros">We live close to the school.
@@ -730,12 +730,12 @@
         it literally means \"to please,\" (as in apples please me) it is conjugated for the
         object/activity, not the person.
     </string>
-    <string name="gustar_ex_yo_singular">I like to sing.
-        \nMe gusta cantar.</string>
+    <string name="gustar_ex_yo_singular">I like the rings.
+        \nMe gustan los anillos.</string>
     <string name="gustar_ex_el_ella_usted_singular">He likes the ocean.
         \nSe gusta el océano. </string>
-    <string name="gustar_ex_nos_plural">We like the rings.
-        \nNos gustan los anillos.</string>
+    <string name="gustar_ex_nos_plural">We like to sing.
+        \nNos gusta cantar.</string>
     <string name="gustar_ex_ellos_ellas_ustedes">They like the fish.
         \nEllos gustan los pescados.</string>
     <!-- Ser and Estar -->
